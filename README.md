@@ -140,6 +140,12 @@ the vector `p` at position `x`".
   still holds as long as `p` and `q` are the distributions actually sampled from.
 - Draft and target share a tokenizer (all Qwen3 sizes do), so token ids line up.
 
+## Chat logs
+
+The `chat/` folder holds transcripts of the teaching sessions that produced
+this code, one file per session, so the reasoning behind each step is kept
+with the code.
+
 ## References
 
 - Leviathan, Kalman, Matias. *Fast Inference from Transformers via Speculative
